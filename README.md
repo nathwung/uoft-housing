@@ -1,6 +1,6 @@
 # 🏠 UofT Housing
 
-[![Frontend: React](https://img.shields.io/badge/Built%20with-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![Built with: React](https://img.shields.io/badge/Built%20with-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
 [![Backend: Flask](https://img.shields.io/badge/Backend-Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![Database: PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Deployed on Vercel & Render](https://img.shields.io/badge/Hosted%20on-Vercel%20&%20Render-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://uoft-housing.vercel.app)
