@@ -12,39 +12,49 @@ A marketplace platform exclusively for University of Toronto students to sublet 
 ## 🚀 Features
 
 ### 🔐 UofT-Verified Authentication
-- Register with a valid `@mail.utoronto.ca` email
-- Email verification via SendGrid
-- Secure login with JWT token authentication
-- Edit profile (name, program, year) with instant reflection across listings & messages
-- Password reset via email
+- Register with a valid `@mail.utoronto.ca` email address
+- Confirm email through a **SendGrid-powered verification link**
+- Secure login using **JWT token-based authentication**
+- Update your name, program, and graduation year — changes reflect instantly across listings and messages
+- Forgot your password? Reset securely through an email flow
 
 ### 🏘️ Listings Marketplace
-- Create listings for:
+- Post listings for:
   - 🛏️ Sublets
   - 🧍 Roommate Requests
   - 🪑 Furniture Market
   - 🏡 Long-Term Housing
-- Upload multiple images
-- Dynamic amenities, duration, and price options
-- Integrated Leaflet map & geolocation from OpenStreetMap
-- View listings in real-time by location or category
+- Each listing supports:
+  - Title, location, description, negotiable pricing, images, amenities
+  - Conditional fields: bedrooms, bathrooms, roommate preference, sublet duration, and furnishing status
+- Interactive Leaflet Map Integration:
+  - When a listing is created, its address is geocoded via OpenStreetMap Nominatim to generate latitude/longitude
+  - A pin is dropped on the map with location preview on hover
+  - Clicking a pin filters visible listings by that location for targeted browsing
 
-### ⭐ Favorites System
-- Save and unsave listings (persistent in PostgreSQL)
-- View saved listings under `/saved`
-- Filter by favorites or listing type
+### ❤️ Favorites System
+- Click the ⭐ star icon on any listing to favorite or unfavorite it
+- Favorites are stored persistently in PostgreSQL
+- Toggle the "Show Saved Only" button to filter the listings view to only your favorites
 
 ### 💬 Messaging System
-- Buyer–seller chat system per listing
-- WhatsApp-style UI with green/white message bubbles
-- Send and delete messages (both sides synced)
-- Seller can view grouped chats by buyer on listing edit page
+- Initiate chats with listing owners directly from the detail page
+- Built with a WhatsApp-style UI:
+  - Green message bubbles for sender, white for receiver
+  - Auto-scroll to newest messages
+  - Delete individual messages
+- Sellers can view grouped buyer conversations in the Edit Listing view
+- Messages persist via PostgreSQL for consistent experience across sessions
 
 ### 🧠 Smart UI/UX
-- Responsive layout with Tailwind CSS & Framer Motion
-- Listing modals, animated carousels, filter buttons with icons
-- Skeleton loaders for loading states
-- Chat auto-scroll, grouped messages, and rich detail badges
+- Fully responsive UI using Tailwind CSS
+- Smooth transitions and interactions using Framer Motion
+- Listing cards feature:
+  - Modal previews
+  - Carousel image sliders
+  - Filter buttons with icons
+  - Skeleton loaders during data fetching
+  - Edit pages conditionally render fields based on listing type
 
 ---
 
