@@ -60,7 +60,7 @@ A marketplace platform **exclusively for University of Toronto students** to sub
 
 ## 🔗 Links
 
-- 🌐 **Website**: [chat-55a76.web.app](https://uoft-housing.vercel.app/)  
+- 🌐 **Website**: [uoft-housing.vercel.app](https://uoft-housing.vercel.app/)  
 - 🎥 **Video Demo**: [Watch on Google Drive](https://drive.google.com/file/d/1EzaCifBafGvaQluX7zmfk1MRs3IsTnuR/view) 
 - 💻 **Frontend Code**: [GitHub Repo](https://github.com/nathwung/uoft-housing-frontend)  
 - 🔧 **Backend Code**: [GitHub Repo](https://github.com/nathwung/uoft-housing-backend)  
