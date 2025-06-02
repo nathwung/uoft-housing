@@ -72,7 +72,7 @@ A marketplace platform exclusively for University of Toronto students to sublet 
 
 - **Frontend**: React, Tailwind CSS, Framer Motion, Leaflet.js
 - **Backend**: Python, Flask, Flask-SQLAlchemy, Flask-CORS
-- **Database**: PostgreSQL (Render)
+- **Database**: PostgreSQL
 - **Authentication & Email**: JWT, SendGrid
 - **Geolocation**: OpenStreetMap Nominatim API
 - **Hosting**: Vercel (frontend), Render (backend)
