@@ -37,10 +37,14 @@ A marketplace platform exclusively for University of Toronto students to sublet 
 - Each listing supports:
   - Title, location, description, negotiable pricing, images, amenities
   - Conditional fields: bedrooms, bathrooms, roommate preference, sublet duration, and furnishing status
-- Interactive Leaflet Map Integration:
-  - When a listing is created, its address is geocoded via OpenStreetMap Nominatim to generate latitude/longitude
-  - A pin is dropped on the map with location preview on hover
-  - Clicking a pin filters visible listings by that location for targeted browsing
+
+### 🗺 Interactive Map
+  - Uses **Leaflet.js** with **OpenStreetMap Nominatim**
+  - On listing creation, location is geocoded to lat/lng
+  - Pins dropped on map
+  - Hover preview shows location name
+  - Clicking a pin filters listings by that location for targeted discovery
+  - Includes a toggle to show or hide the map for a full-screen listings view
 
 ### 💾 Save Listings Feature
 - Click the ⭐ star icon on any listing to save or unsave it
