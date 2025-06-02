@@ -71,6 +71,6 @@ A marketplace platform exclusively for University of Toronto students to sublet 
 ## 🔗 Links
 
 - 🌐 **Website**: [uoft-housing.vercel.app](https://uoft-housing.vercel.app/)  
-- 🎥 **Video Demo**: [Watch on Google Drive](https://drive.google.com/file/d/1EzaCifBafGvaQluX7zmfk1MRs3IsTnuR/view) 
+- 🎥 **Video Demo**: [Watch on Google Drive](https://drive.google.com/file/d/1NHOmTrlppiNmcszzT_7A_Bl2ZQGPeZD9/view?usp=sharing) 
 - 💻 **Frontend Code**: [GitHub Repository](https://github.com/nathwung/uoft-housing-frontend)  
 - 🔧 **Backend Code**: [GitHub Repository](https://github.com/nathwung/uoft-housing-backend)  
