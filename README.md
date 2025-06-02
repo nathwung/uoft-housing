@@ -52,7 +52,7 @@ A marketplace platform exclusively for University of Toronto students to sublet 
 - Toggle the "Show Saved Only" button to filter and view just your saved listings
 
 ### 💬 Messaging System
-- Initiate chats with listing owners directly from the detail page
+- Initiate chats with listing owners directly from the listing detail page
 - Built with a WhatsApp-style UI:
   - Green message bubbles for sender, white for receiver
   - Auto-scroll to newest messages
