@@ -11,6 +11,16 @@ A marketplace platform exclusively for University of Toronto students to sublet 
 
 ## 🚀 Features
 
+### 🛬 Landing Page
+
+- Hero with category cards for Roommates, Sublets, Furniture, and Long-Term Housing
+- Step-by-step timeline on how the platform works  
+- Real-world student scenarios
+- Blurred featured listings
+- About section with mission-driven highlights and trust badges  
+- A floating assistant bot is embedded to help users with suggestions during their visit
+- Dark mode toggle
+
 ### 🔐 UofT-Verified Authentication
 - Register with a valid `@mail.utoronto.ca` email address
 - Confirm email through a **SendGrid-powered verification link**
@@ -32,10 +42,10 @@ A marketplace platform exclusively for University of Toronto students to sublet 
   - A pin is dropped on the map with location preview on hover
   - Clicking a pin filters visible listings by that location for targeted browsing
 
-### ❤️ Favorites System
-- Click the ⭐ star icon on any listing to favorite or unfavorite it
-- Favorites are stored persistently in PostgreSQL
-- Toggle the "Show Saved Only" button to filter the listings view to only your favorites
+### 💾 Save Listings Feature
+- Click the ⭐ star icon on any listing to save or unsave it
+- Saved listings are stored persistently in PostgreSQL
+- Toggle the "Show Saved Only" button to filter and view just your saved listings
 
 ### 💬 Messaging System
 - Initiate chats with listing owners directly from the detail page
@@ -60,10 +70,11 @@ A marketplace platform exclusively for University of Toronto students to sublet 
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React, Tailwind CSS, Framer Motion  
-- **Backend**: Python, Flask, Flask-SQLAlchemy, Flask-CORS  
-- **Database**: PostgreSQL  
-- **Authentication & Email**: JWT, SendGrid  
+- **Frontend**: React, Tailwind CSS, Framer Motion, Leaflet.js
+- **Backend**: Python, Flask, Flask-SQLAlchemy, Flask-CORS
+- **Database**: PostgreSQL (Render)
+- **Authentication & Email**: JWT, SendGrid
+- **Geolocation**: OpenStreetMap Nominatim API
 - **Hosting**: Vercel (frontend), Render (backend)
 
 ---
