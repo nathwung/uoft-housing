@@ -18,7 +18,7 @@ A marketplace platform exclusively for University of Toronto students to sublet 
 - Real-world student scenarios
 - Blurred featured listings
 - About section with mission-driven highlights and trust badges  
-- A floating assistant bot is embedded to help users with suggestions during their visit
+- A floating assistant bot to help users with suggestions during their visit
 - Dark mode toggle
 
 ### 🔐 UofT-Verified Authentication
