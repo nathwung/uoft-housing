@@ -35,7 +35,7 @@ A marketplace platform exclusively for University of Toronto students to sublet 
   - 🪑 Furniture Market
   - 🏡 Long-Term Housing
 - Each listing supports:
-  - Title, location, description, negotiable pricing, images, amenities
+  - Title, location, description, negotiable pricing, images, and amenities
   - Conditional fields: bedrooms, bathrooms, roommate preference, sublet duration, and furnishing status
 
 ### 🗺 Interactive Map
